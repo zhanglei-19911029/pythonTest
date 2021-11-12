@@ -5,9 +5,6 @@ import requests
 import itchat
 import random
 from itchat.content import *
-from apscheduler.schedulers.blocking import BlockingScheduler
-
-scheduler = BlockingScheduler()
 
 
 def tianxing_ai(info):
